@@ -9,10 +9,10 @@ string = readline()
 for i in 1:15
     println()
 end
-print("  ")
+#print("  ")
 for i in 1:length(string)
     print(string[i])
-    sleep(0.05)
+    sleep(0.07)
 end
 
 println()
